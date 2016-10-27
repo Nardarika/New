@@ -12,7 +12,9 @@ public class MyFirstProgram {
 
     double a = 4;
     double b = 6;
-    System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a,b));
+    System.out.println("Площадь прямоугольника 1 со сторонами " + a + " и " + b + " = " + area(a,b));
+
+    System.out.println("Площадь прямоугольника 2 со сторонами " + a + " и " + b + " = " + area(a,b));
 
   }
 
