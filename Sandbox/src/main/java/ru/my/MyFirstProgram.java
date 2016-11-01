@@ -11,9 +11,8 @@ public class MyFirstProgram {
     Point p2 = new Point(6, 6);
     System.out.println("Расстояние между точками = " + Point.distance(p1, p2));
 
-    p1 = new Point(0, 0);
-    p2 = new Point(1, 1);
-    System.out.println("Расстояние между точками = " + Point.distance(p1, p2));
+    Res n = new Res(1, 5, 6, 1);
+    System.out.println("Расстояние между точками = " + n.res());
 
     Square s = new Square(5);
     System.out.println("Площадь квадрата со стороной " + s.l + " = " + s.area());
